@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Form dengan Table</title>
+</head>
+<body>
+  <form action="">
+    <table border="0" cellspacing="0" cellpadding="5 ">
+      <tr>
+        <td><label for="username">Username :</label></td>
+        <td><input type="text" id="username"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password :</label></td>
+        <td><input type="password" id="password"></td>
+      </tr>
+      <tr>
+        <td><label for="jenis_kelamin">Jenis Kelamin :</label></td>
+        <td>
+          <input type="radio" id="pria" name="jenis_kelamin"><label for="pria">Pria</label>
+          <input type="radio" id="wanita" name="jenis_kelamin"><label for="wanita">Wanita</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="hobi">Hobi :</label></td>
+        <td>
+          <input type="checkbox" id="dance"><label for="dance">Dance</label>
+          <input type="checkbox" id="coding"><label for="coding">Coding</label>
+          <input type="checkbox" id="gym"><label for="gym">Gym</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="kota">Kota :</label></td>
+        <td>
+          <select name="kota" id="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="yogyakarta">Yogyakarta</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="deskripsi">Deskripsi :</label></td>
+        <td><textarea name="deskripsi" id="deskripsi"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button type="reset">Reset</button>
+          <button type="submit">Kirim</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
